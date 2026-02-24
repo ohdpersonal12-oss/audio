@@ -7,4 +7,5 @@ class AppIcons {
   static String lock = 'assets/icons/lock.svg';
   static String facebook = 'assets/icons/facebook.svg';
   static String apple = 'assets/icons/apple.svg';
+  static String logo = 'assets/images/logo.png';
 }

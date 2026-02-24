@@ -1,4 +1,5 @@
 import 'package:audio/src/ui/auth/login_screen.dart';
+import 'package:audio/src/ui/home/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         platform: TargetPlatform.iOS,
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: LoginScreen()
+      home: HomeScreen()
     );
   }
 }
