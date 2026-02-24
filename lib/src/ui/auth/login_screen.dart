@@ -29,7 +29,7 @@ class _LoginScreenState extends State<LoginScreen> {
               children: [
                 Padding(
                   padding:  EdgeInsets.symmetric(horizontal: 110.0),
-                  child: Text("AUDIO",style: AppStyle.textSize51(AppColors.textColorWhite),),
+                  child: Text("SALOMUALEKUM",style: AppStyle.textSize51(AppColors.textColorWhite),),
                 ),
                 Text("It's modular and designed to last",style: AppStyle.textSize14(AppColors.textColorWhite),),
                 SizedBox(height: 247,),
