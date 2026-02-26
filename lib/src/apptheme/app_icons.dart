@@ -8,4 +8,5 @@ class AppIcons {
   static String facebook = 'assets/icons/facebook.svg';
   static String apple = 'assets/icons/apple.svg';
   static String logo = 'assets/images/logo.png';
+  static String headPhone = 'assets/images/headphone.png';
 }
