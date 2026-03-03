@@ -9,4 +9,5 @@ class AppIcons {
   static String apple = 'assets/icons/apple.svg';
   static String logo = 'assets/images/logo.png';
   static String headPhone = 'assets/images/headphone.png';
+  static String person = 'assets/images/person.png';
 }
