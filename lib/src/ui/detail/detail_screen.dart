@@ -1,6 +1,7 @@
 import 'package:audio/src/apptheme/app_color.dart';
 import 'package:audio/src/apptheme/app_icons.dart';
 import 'package:audio/src/apptheme/app_style.dart';
+import 'package:audio/src/ui/detail/cart/cart_screen.dart';
 import 'package:audio/src/widget/button_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -24,7 +25,11 @@ class _DetailScreenState extends State<DetailScreen> with SingleTickerProviderSt
       appBar: AppBar(
         backgroundColor: AppColors.backgroundColor,
         actions: [
-          IconButton(onPressed: (){}, icon: Icon(Icons.shopping_cart_outlined)),
+          IconButton(onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (builder){
+              return CartScreen();
+            }));
+          }, icon: Icon(Icons.shopping_cart_outlined)),
         ],
       ),
       backgroundColor: AppColors.backgroundColor,
